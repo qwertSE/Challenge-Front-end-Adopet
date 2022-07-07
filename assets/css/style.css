@@ -1,0 +1,37 @@
+:root {
+  --blue: #3772ff;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.app {
+  width: 360px;
+  height: 917px;
+
+  background-color: var(--blue);
+  mix-blend-mode: normal;
+}
+
+header{
+    position: absolute;
+    height: 300px;
+    width: 360vw;
+    background: url('/assets/img/Vector1.svg') no-repeat;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 120px;
+}
+
+#menu > a{
+    padding-left: 3rem;
+}
