@@ -32,14 +32,58 @@
           <a href="" id="msg"
             ><img src="./assets/img/Mensagens.svg" alt="mensagem"
           /></a>
+
+          <img src="./assets/img/Patas.svg" alt="patas" class="patas">
         </nav>
       </header>
       <main class="conteudo">
-        <img class="logomarca" src="./assets/img/LogoBlue.svg" alt="Logo AdoPet" />
+        <img
+          class="logomarca"
+          src="./assets/img/LogoBlue.svg"
+          alt="Logo AdoPet"
+        />
+        <p class="title">Ainda não tem cadastro?</p>
         <p class="text">
-          Ainda não tem cadastro? Então, antes de buscar seu melhor amigo,
-          precisamos de alguns dados:
+          Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
         </p>
+        <form class="form__info" action="">
+          <label for="email" id="label__info">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input__info"
+            placeholder="Escolha seu melhor email"
+          />
+          <label for="nome" id="label__info">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            class="input__info"
+            placeholder="Digite seu nome completo"
+          />
+          <label for="senha" id="label__info">Senha</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            class="input__info"
+            placeholder="Crie uma senha"
+          />
+          <img src="./assets/img/eye.svg" alt="" class="eye" />
+          <label for="repetirSenha" id="label__info">Confirma sua senha</label>
+          <input
+            type="password"
+            name="repetirSenha"
+            id="repetirSenha"
+            class="input__info"
+            placeholder="Repita a senha criada acima"
+          />
+          <img src="./assets/img/eye.svg" alt="" class="eye" />
+
+          <button class="btn-submit">Cadastrar</button>
+        </form>
       </main>
       <footer class="rodape">
         <p>2022 - Desenvolvido por Alura.</p>
