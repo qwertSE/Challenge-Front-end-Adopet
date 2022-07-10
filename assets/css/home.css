@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../img/Vector1.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 100vh;
+}
+
+/* Temporario */
+
+#perfil {
+  margin-left: 6.5rem;
+}
+
+.app {
+  box-sizing: border-box;
+}
+.bg-white {
+  background-color: var(--white);
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  box-sizing: border-box;
+  color: var(--blue);
+  font-family: var(--primaryFont);
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 21px;
+
+  width: 226px;
+  height: 40px;
+
+  padding-left: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.cardPet {
+  display: grid;
+  grid-template-areas:
+    "img  petInfo"
+    "img  contato";
+  grid-template-columns: 200px 1fr;
+
+  width: 360px;
+  height: 196px;
+  margin-bottom: 1rem;
+  background-color: var(--light-gray);
+}
+
+.card__Img {
+  grid-area: img;
+  padding-top: 1.5rem;
+}
+
+.card__petInfo {
+  grid-area: petInfo;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.card__contato {
+  grid-area: contato;
+}
+
+.card__petInfo {
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 20px;
+}
+
+.card__petInfo {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--dark-gray);
+}
+
+.card__nomePet {
+  margin-bottom: 1rem;
+
+  color: var(--blue);
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.localidade, .contactar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--dark-gray);
+}
+
+.localidade {
+  text-align: left;
+  font-size: 12px;
+}
+
+.contactar{
+    text-align: right;
+    font-size: 10px;
+
+    padding-right: 1.5rem;
+}
+
+.iconeMsg{
+ position: relative;
+ right: 4.5rem;
+ bottom: 1rem;
+}
+
+.rodape {
+  background-color: var(--light-green);
+  color: var(--white);
+  font-family: var(--primaryFont);
+
+  padding: 3rem 0 3rem 0;
+
+  text-align: center;
+}
