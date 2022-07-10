@@ -9,10 +9,10 @@ body {
   min-height: 100vh;
 }
 
-.patas{
-position: relative;
-left: 4.5rem;
-top: 2.8rem;
+.patas {
+  position: relative;
+  left: 7.5rem;
+  top: 2.8rem;
 }
 
 .app {
@@ -26,7 +26,6 @@ top: 2.8rem;
   margin-top: 2rem;
 }
 
-.title,
 .text {
   color: var(--blue);
   font-family: var(--primaryFont);
@@ -34,22 +33,17 @@ top: 2.8rem;
   font-size: 1em;
   line-height: 21px;
 
-  margin-top: 1rem;
-}
-
-.text {
   height: 71px;
   padding-left: 1rem;
+  margin-top: 4.5rem;
 }
 
-
 .rodape {
-  margin-top: 120px;
+  margin-top: 225px;
   background-color: var(--light-green);
   color: var(--white);
   font-family: var(--primaryFont);
 
-  width: 100vw;
   padding: 3rem 0rem 3rem 0rem;
 
   text-align: center;
@@ -68,7 +62,7 @@ top: 2.8rem;
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
-  padding: 0.5rem 0rem 0.2rem 0rem;
+  padding: 0.2rem 0rem 0.2rem 0rem;
 }
 
 .input__info {
@@ -86,6 +80,7 @@ top: 2.8rem;
 
   height: 40px;
   width: 312px;
+  margin-bottom: 1rem;
 
   border: 1px solid var(--light-gray);
   border-radius: 6px;
@@ -95,7 +90,18 @@ top: 2.8rem;
 .eye {
   position: relative;
   left: 8.5rem;
-  bottom: 1.8rem;
+  bottom: 2.8rem;
+}
+
+.resetSenha {
+  color: var(--light-red);
+  margin: -1.5rem 0rem 1.3rem 0rem;
+
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 .btn-submit {

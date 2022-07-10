@@ -17,37 +17,56 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/login.css" />
     <!-- CSS End -->
 
     <title>AdoPet</title>
   </head>
-  <body class="bg-blue">
+  <body class="bg-white">
     <div class="app">
       <header>
         <nav id="menu">
-          <a href="" id="home"
+          <a href="./index.html" id="home"
             ><img src="./assets/img/Casa.svg" alt="home"
           /></a>
           <a href="" id="msg"
             ><img src="./assets/img/Mensagens.svg" alt="mensagem"
           /></a>
+
+          <img src="./assets/img/Patas.svg" alt="patas" class="patas">
         </nav>
       </header>
       <main class="conteudo">
-        <img class="logomarca" src="./assets/img/Logo.svg" alt="Logo AdoPet" />
-        <h2 class="title">Boas-vindas!</h2>
-        <p class="text">
-          Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a
-          gente!
-        </p>
-        <a class="btn" href="./login.html">Já tenho conta</a>
-        <a class="btn" href="./cadastro.html">Quero me cadastrar</a>
         <img
-          class="pets"
-          src="./assets/img/Ilustração.svg"
-          alt="Ilustração pets"
+          class="logomarca"
+          src="./assets/img/LogoBlue.svg"
+          alt="Logo AdoPet"
         />
+        <p class="text">
+          Já tem conta? Faça seu login:
+        </p>
+        <form class="form__info" action="">
+          <label for="email" id="label__info">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input__info"
+            placeholder="Insira seu email"
+          />
+          <label for="senha" id="label__info">Senha</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            class="input__info"
+            placeholder="Insira sua senha"
+          />
+          <img src="./assets/img/eye.svg" alt="" class="eye" />
+          <a href="#" class="resetSenha">Esqueci minha senha</a>
+
+          <button class="btn-submit">Entrar</button>
+        </form>
       </main>
       <footer class="rodape">
         <p>2022 - Desenvolvido por Alura.</p>
