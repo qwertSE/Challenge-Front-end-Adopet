@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/mensagem.css" />
+    <!-- CSS End -->
+
+    <title>AdoPet</title>
+  </head>
+  <body class="bg-white">
+    <div class="app">
+      <header>
+        <nav id="menu">
+          <a href="./index.html" id="home"
+            ><img src="./assets/img/Casa.svg" alt="home"
+          /></a>
+          <a href="" id="msg"
+            ><img src="./assets/img/Mensagens.svg" alt="mensagem"
+          /></a>
+
+          <a href="" id="perfil"
+            ><img src="./assets/img/Usuario.svg" alt="Icone-Perfil"
+          /></a>
+        </nav>
+      </header>
+      <main class="conteudo">
+        <p class="text">
+          Envie uma mensagem para a pessoa ou instituição que está cuidado do
+          animal:
+        </p>
+        <form class="form__info" action="#">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            placeholder="Insira seu nome completo"
+          />
+
+          <label for="telefone">Telefone</label>
+          <input
+            type="number"
+            name="telefone"
+            placeholder="Insira seu telefone e/ou whatsapp"
+          />
+
+          <label for="nomeAnimal">Nome do animal</label>
+          <input
+            type="text"
+            placeholder="Por qual animal você se interessou?"
+          />
+
+          <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
+
+          <button class="btn-submit">Entrar</button>
+        </form>
+      </main>
+      <footer class="rodape">
+        <p>2022 - Desenvolvido por Alura.</p>
+      </footer>
+    </div>
+  </body>
+</html>
