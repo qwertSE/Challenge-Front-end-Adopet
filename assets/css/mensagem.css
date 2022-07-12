@@ -1,75 +1,87 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    background-image: url("../img/Vector1.svg"), url("../img/Vector3.svg");
-    background-repeat: no-repeat;
-    background-position: top left, left top 22rem;
-    min-height: 100vh;
-  }
-  
- #perfil{
-    margin-left: 6.3rem;
- }
-  
-  .app {
-    box-sizing: border-box;
-    height: 100vh;
-  }
-  .bg-white {
-    background-color: var(--white);
-  }
-  
-  .text {
-    color: var(--blue);
-    font-family: var(--primaryFont);
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 20px;
-  
-    height: 61px;
+  background-image: url("../img/Vector1.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 100vh;
+}
 
-    padding-left: 1rem;
-    margin-top: 4.5rem;
-  }
+.bg-white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+}
+
+.app {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#perfil {
+  margin-left: 6.3rem;
+}
+
+.text {
+  color: var(--blue);
+  font-family: var(--primaryFont);
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 20px;
+
+  height: 61px;
+  width: 226px;
+  margin: 4.5rem 0 2rem 0;
+}
+
+.form__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 636px;
+  width: 312px;
+  background-color: var(--light-gray);
+  border-radius: 10px;
   
-  .rodape {
-    margin-top: 225px;
-    background-color: var(--light-green);
-    color: var(--white);
-    font-family: var(--primaryFont);
-  
-    padding: 3rem 0rem 3rem 0rem;
-  
-    text-align: center;
-  }
-  
-  .form__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #msg{
-    resize: none;
-  }
-  
-  .btn-submit {
-    background-color: var(--light-red);
-  
-    border: 0px;
-    border-radius: 6px;
-  
-    width: 148px;
-    height: 40px;
-  
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--white);
-  }
-  
+}
+
+
+
+#msg {
+  resize: none;
+}
+
+.btn-submit {
+  background-color: var(--light-red);
+
+  border: 0px;
+  border-radius: 6px;
+
+  width: 148px;
+  height: 40px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.rodape {
+  margin-top: 225px;
+  background-color: var(--light-green);
+  color: var(--white);
+  font-family: var(--primaryFont);
+
+  padding: 3rem 0rem 3rem 0rem;
+
+  text-align: center;
+}
