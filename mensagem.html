@@ -44,27 +44,30 @@
           animal:
         </p>
         <form class="form__info" action="#">
-          <label for="nome">Nome</label>
+          <label for="nome" class="form__label">Nome</label>
           <input
             type="text"
             name="nome"
             placeholder="Insira seu nome completo"
+            class="form__input"
           />
 
-          <label for="telefone">Telefone</label>
+          <label for="telefone" class="form__label">Telefone</label>
           <input
             type="number"
             name="telefone"
             placeholder="Insira seu telefone e/ou whatsapp"
+            class="form__input"
           />
 
-          <label for="nomeAnimal">Nome do animal</label>
+          <label for="nomeAnimal" class="form__label">Nome do animal</label>
           <input
             type="text"
             placeholder="Por qual animal você se interessou?"
+            class="form__input"
           />
-
-          <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
+          <label for="mensagem" class="form__label">Mensagem</label>
+          <textarea name="mensagem" id="msg-textArea" cols="30" rows="10" placeholder="Escreva sua mensagem." class="form__input"></textarea>
 
           <button class="btn-submit">Entrar</button>
         </form>
