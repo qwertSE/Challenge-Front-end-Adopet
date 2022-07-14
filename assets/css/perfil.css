@@ -1,0 +1,147 @@
+body {
+  background-image: url("../img/Vector1.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  min-height: 100vh;
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.app {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#perfil {
+  margin-left: 6.3rem;
+}
+
+.text {
+  color: var(--blue);
+  font-family: var(--primaryFont);
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 20px;
+
+  height: 61px;
+  width: 247px;
+  margin: 4.5rem 0 2rem 0;
+}
+
+.form__info {
+  display: flex;
+  flex-direction: column;
+
+  height: 825px;
+  width: 312px;
+  margin-bottom: 1rem;
+
+  background-color: var(--light-gray);
+  border-radius: 10px;
+}
+
+.perfil,
+.form__input,
+.form__label,
+.btn-submit,
+.rodape,
+.info_Perfil {
+  font-family: var(--primaryFont);
+  font-style: normal;
+}
+
+.perfil {
+  color: var(--dark-gray);
+
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+
+  padding: 2em 8em 0 6em;
+}
+
+.profile {
+  height: 120px;
+  width: 80px;
+
+  margin: 1em 8em 0.3em 7em;
+
+  background: url("..//img/fotoExemplo.svg") no-repeat;
+  border-radius: 50%;
+}
+.info_Perfil {
+  color: var(--light-red);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.form__label {
+  color: var(--blue);
+  text-align: left;
+  margin: 2rem 0 0.5rem 1rem;
+}
+
+.form__input {
+  color: var(--dark-gray);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 2em;
+
+  width: 280px;
+  height: 48px;
+  margin-left: 1rem;
+
+  border-radius: 6px;
+  border: none;
+  mix-blend-mode: normal;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.msg-textArea {
+  resize: none;
+  width: 280px;
+  height: 176px;
+  padding: 1em;
+}
+
+.form__label,
+.btn-submit {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-submit {
+  background-color: var(--light-red);
+
+  border: 0px;
+  border-radius: 6px;
+
+  width: 148px;
+  height: 40px;
+
+  color: var(--white);
+  margin: 2rem 5.1rem 2rem 5.1rem;
+}
+
+.rodape {
+  /* margin-top: 225px; */
+  background-color: var(--light-green);
+  color: var(--white);
+
+  padding: 3rem 0rem 3rem 0rem;
+
+  text-align: center;
+}

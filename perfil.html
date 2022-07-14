@@ -17,7 +17,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/mensagem.css" />
+    <link rel="stylesheet" href="./assets/css/perfil.css" />
     <!-- CSS End -->
 
     <title>AdoPet</title>
@@ -40,36 +40,51 @@
       </header>
       <main class="conteudo">
         <p class="text">
-          Envie uma mensagem para a pessoa ou instituição que está cuidado do
-          animal:
+          Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua
+          mensagem.
         </p>
         <form class="form__info" action="#">
+            <h3 class="perfil">Perfil</h3>
+            <label for="profile" class="form__label">Foto</label>
+            <div class="profile"></div>
+            <h4 class="info_Perfil">Clique na foto para editar</h4>
           <label for="nome" class="form__label">Nome</label>
           <input
             type="text"
             name="nome"
             placeholder="Insira seu nome completo"
             class="form__input"
+            value="Joana Magalhães"
           />
 
           <label for="telefone" class="form__label">Telefone</label>
           <input
-            type="number"
+            type="tel"
             name="telefone"
             placeholder="Insira seu telefone e/ou whatsapp"
             class="form__input"
+            value="55 11 XXXXXXXXX"
           />
 
-          <label for="nomeAnimal" class="form__label">Nome do animal</label>
+          <label for="cidade" class="form__label">Cidade</label>
           <input
             type="text"
-            placeholder="Por qual animal você se interessou?"
+            placeholder="Cidade"
             class="form__input"
+            value="São Paulo"
           />
-          <label for="mensagem" class="form__label">Mensagem</label>
-          <textarea name="mensagem" id="msg-textArea" cols="30" rows="10" placeholder="Escreva sua mensagem." class="form__input"></textarea>
+          <label for="mensagem" class="form__label">Sobre</label>
+          <textarea
+            name="mensagem"
+            cols="30"
+            rows="10"
+            placeholder="Escreva sobre você."
+            class="form__input msg-textArea"
+          >
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</textarea
+          >
 
-          <button class="btn-submit">Enviar</button>
+          <button class="btn-submit">Salvar</button>
         </form>
       </main>
       <footer class="rodape">
