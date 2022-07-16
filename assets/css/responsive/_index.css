@@ -1,0 +1,45 @@
+@media (min-width: 768px) and (max-width: 1400px) {
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  .logomarca {
+    width: 251px;
+    height: 62px;
+  }
+
+  .title {
+    width: 233px;
+    height: 48px;
+    font-size: 1.8em;
+  }
+
+  .text {
+    width: 344px;
+    height: 78px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .btn {
+    width: 344px;
+    height: 48px;
+  }
+
+  .pets {
+   position: relative;
+   top: 14rem;
+  }
+
+  .rodape{
+    margin-top: 210px;
+  }
+}
+
+@media (min-width: 1401px){
+}

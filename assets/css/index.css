@@ -23,6 +23,10 @@ body {
   margin-top: 4rem;
 }
 
+.logo__topo{
+display: none;
+}
+
 .conteudo {
   display: flex;
   flex-direction: column;
@@ -42,8 +46,7 @@ body {
 }
 
 .btn {
-  margin: 0 auto 1em;
-
+  margin-bottom: 1rem;
   background-color: var(--light-red);
   border-radius: 6px;
 
