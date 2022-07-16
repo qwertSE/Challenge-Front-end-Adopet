@@ -1,5 +1,4 @@
 @media (min-width: 768px) and (max-width: 1400px) {
-
   .logo__topo {
     display: block;
 
@@ -32,14 +31,60 @@
   }
 
   .pets {
-   position: relative;
-   top: 14rem;
+    position: relative;
+    top: 14rem;
   }
 
-  .rodape{
+  .rodape {
     margin-top: 210px;
   }
 }
 
-@media (min-width: 1401px){
+@media (min-width: 1401px) {
+  body {
+    background-image: url("../../img/VectorDesktop.svg"),
+      url("../../img/Vector2Desktop.svg");
+  }
+
+  #menu {
+    padding: 3rem 0 0 8rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  .logomarca {
+    width: 260px;
+    height: 64px;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+
+  .text {
+    width: 488px;
+    height: 52px;
+  }
+
+  .btn {
+    width: 362px;
+    height: 48px;
+
+    font-size: 1.1em;
+  }
+
+  .pets {
+    position: relative;
+    top: 14rem;
+  }
+
+  .rodape {
+    margin-top: 210px;
+  }
 }

@@ -1,7 +1,7 @@
 body {
   background-image: url("../img/Vector1.svg"), url("../img/Vector2.svg");
   background-repeat: no-repeat;
-  background-position: top left, center right;
+  background-position: top left, right -2% center;
   min-height: 100vh;
 }
 
@@ -77,7 +77,7 @@ display: none;
   font-family: var(--primaryFont);
 
   width: 100vw;
-  padding: 3rem 0rem 3rem 0rem;
+  padding: 3rem 0 3rem 0;
 
   text-align: center;
 }
