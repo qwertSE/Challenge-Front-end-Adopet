@@ -16,6 +16,8 @@ top: 2.8rem;
 }
 
 .app {
+  width: 100vw;
+  height: 100vh;
   box-sizing: border-box;
 }
 .bg-white {

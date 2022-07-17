@@ -1,0 +1,101 @@
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  body {
+    background-image: url("../../img/TabletVector.svg"),
+      url("../../img/Patas.svg"), url("../../img/TabletVector2.svg");
+    background-position: top left, top right, center right;
+    background-size: auto, 25%, auto;
+  }
+
+  #menu {
+    padding: 4rem 0 0 3rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  .patas {
+    display: none;
+  }
+
+  .logomarca {
+    width: 251px;
+    height: 62px;
+  }
+
+  .logomarca {
+    margin-top: 8rem;
+  }
+
+  .text,
+  .title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .text {
+    width: 525px;
+    height: 78px;
+    margin-left: 7rem;
+  }
+
+  #label__info {
+    font-size: 1.2em;
+  }
+
+  .input__info {
+    margin-bottom: 1.5rem;
+    width: 344px;
+    height: 40px;
+
+    font-size: 0.9em;
+  }
+
+  .eye {
+    left: 8.5rem;
+    bottom: 3.1rem;
+  }
+
+  .btn-submit {
+    margin-top: 2.5rem;
+    width: 164px;
+    height: 40px;
+  }
+
+  .rodape {
+    margin-top: 210px;
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  body {
+    background-image: url("../../img/TabletVector.svg"),
+      url("../../img/TabletVector2.svg");
+    background-position: top left, center right;
+  }
+
+  #menu {
+    padding: 3rem 0 0 8rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  .logomarca {
+    width: 260px;
+    height: 64px;
+  }
+
+  .rodape {
+    margin-top: 210px;
+  }
+}
