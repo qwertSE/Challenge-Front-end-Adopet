@@ -74,8 +74,9 @@
 @media screen and (min-width: 1401px) {
   body {
     background-image: url("../../img/TabletVector.svg"),
-      url("../../img/TabletVector2.svg");
-    background-position: top left, center right;
+      url("../../img/Patas.svg"), url("../../img/TabletVector2.svg");
+    background-position: top left, top right -1%, center right -1%;
+    background-size: auto, 11%, auto;
   }
 
   #menu {
@@ -93,6 +94,56 @@
   .logomarca {
     width: 260px;
     height: 64px;
+  }
+
+  .label__nome {
+    order: 1;
+  }
+
+  #nome {
+    width: 552px;
+    height: 40px;
+    order: 2;
+  }
+
+  .label__email {
+    order: 3;
+  }
+
+  #email {
+    width: 552px;
+    height: 40px;
+    order: 4;
+  }
+
+  .label__senha {
+    order: 5;
+  }
+  #senha {
+    order: 6;
+    background-image: url("../../img/eye.svg");
+    background-repeat: no-repeat;
+    background-position: center right 5%;
+  }
+
+  .label__confirmar {
+    order: 7;
+  }
+
+  #repetirSenha {
+    order: 8;
+    background-image: url("../../img/eye.svg");
+    background-repeat: no-repeat;
+    background-position: center right 5%;
+  }
+
+  .btn-submit {
+    order: 9;
+    margin-top: 3rem;
+  }
+
+  .eye {
+    display: none;
   }
 
   .rodape {

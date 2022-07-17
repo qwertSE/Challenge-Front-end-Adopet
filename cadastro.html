@@ -37,8 +37,6 @@
           <a href="./mensagem.html" id="msg"
             ><img src="./assets/img/Mensagens.svg" alt="mensagem"
           /></a>
-
-          <img src="./assets/img/Patas.svg" alt="patas" class="patas" />
         </nav>
       </header>
       <main class="conteudo">
@@ -52,7 +50,7 @@
           Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
         </p>
         <form class="form__info" action="./login.html">
-          <label for="email" id="label__info">Email</label>
+          <label for="email" id="label__info" class="label__email">Email</label>
           <input
             type="email"
             name="email"
@@ -60,7 +58,7 @@
             class="input__info"
             placeholder="Escolha seu melhor email"
           />
-          <label for="nome" id="label__info">Nome</label>
+          <label for="nome" id="label__info" class="label__nome">Nome</label>
           <input
             type="text"
             name="nome"
@@ -68,7 +66,7 @@
             class="input__info"
             placeholder="Digite seu nome completo"
           />
-          <label for="senha" id="label__info">Senha</label>
+          <label for="senha" id="label__info" class="label__senha">Senha</label>
           <input
             type="password"
             name="senha"
@@ -76,8 +74,10 @@
             class="input__info"
             placeholder="Crie uma senha"
           />
-          <img src="./assets/img/eye.svg" alt="" class="eye" />
-          <label for="repetirSenha" id="label__info">Confirma sua senha</label>
+          <img src="./assets/img/eye.svg" alt="" class="eye" id="eye1" />
+          <label for="repetirSenha" id="label__info" class="label__confirmar"
+            >Confirma sua senha</label
+          >
           <input
             type="password"
             name="repetirSenha"
@@ -85,7 +85,7 @@
             class="input__info"
             placeholder="Repita a senha criada acima"
           />
-          <img src="./assets/img/eye.svg" alt="" class="eye" />
+          <img src="./assets/img/eye.svg" alt="" class="eye" id="eye2" />
 
           <button class="btn-submit">Cadastrar</button>
         </form>
