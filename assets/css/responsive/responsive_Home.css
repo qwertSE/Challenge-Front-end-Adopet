@@ -1,0 +1,83 @@
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  body {
+    background-image: url("../../img/TabletVector.svg");
+    background-position: top left;
+  }
+
+  #menu {
+    padding: 4rem 0 0 4rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  #perfil {
+    margin-left: 20rem;
+  }
+
+  .text {
+    font-size: 1.1em;
+
+    width: 373px;
+    height: 48px;
+
+    margin: 8rem 0 2rem 15rem;
+  }
+
+  .conteudo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin-left: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  body {
+    background-image: url("../../img/VectorDesktop.svg"), url("../../img/Vector2Desktop.svg");
+    background-position: top left, center right;
+  }
+
+  #menu {
+    padding: 4rem 0 0 4rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  #perfil {
+    margin-left: 20rem;
+  }
+
+  .text {
+    font-size: 1.1em;
+
+    width: 373px;
+    height: 48px;
+
+    margin: 8rem 0 2rem 12rem;
+  }
+
+  .conteudo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin-left: 5rem;
+  }
+}
