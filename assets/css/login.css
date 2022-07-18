@@ -3,16 +3,16 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-image: url("../img/Vector1.svg"), url("../img/Vector3.svg");
-  background-repeat: no-repeat;
-  background-position: top left, left top 22rem;
+  background-image: url("/assets/img/Vector1.svg"),
+      url("/assets/img/Patas.svg"), url("/assets/img/Vector2.svg");
+    background-repeat: no-repeat;
+    background-position: top left, top right, center right;
+    background-size: auto, 11rem, auto;
   min-height: 100vh;
 }
 
-.patas {
-  position: relative;
-  left: 7.5rem;
-  top: 2.8rem;
+.logo__topo{
+  display: none;
 }
 
 .app {

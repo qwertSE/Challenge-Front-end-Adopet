@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  body {
+    background-image: url("../../img/TabletVector.svg"),
+      url("../../img/Patas.svg"), url("../../img/TabletVector2.svg");
+    background-repeat: no-repeat;
+    background-position: top left, top right, center right;
+    background-size: auto, 12rem, auto;
+  }
+
+  #menu {
+    padding: 4rem 0 0 3rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  .logomarca {
+    margin-top: 7rem;
+
+    width: 252px;
+    height: 62px;
+  }
+
+  .text {
+    margin-top: 2rem;
+    font-size: 1.1em;
+  }
+}
+@media screen and (min-width: 1401px) {
+  body {
+    background-image: url("../../img/VectorDesktop.svg"),
+      url("../../img/Patas.svg"), url("../../img/Vector2Desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top left, top right, center right;
+    background-size: auto, 12rem, auto;
+  }
+
+  #menu {
+    padding: 4rem 0 0 3rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  .logomarca {
+    margin-top: 1rem;
+
+    width: 252px;
+    height: 62px;
+  }
+
+  .text {
+    margin-top: 4rem;
+    font-size: 1.1em;
+  }
+
+  #email {
+    width: 552px;
+    height: 40px;
+  }
+}

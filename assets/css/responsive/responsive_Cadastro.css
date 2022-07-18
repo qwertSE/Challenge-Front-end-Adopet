@@ -3,7 +3,7 @@
     background-image: url("../../img/TabletVector.svg"),
       url("../../img/Patas.svg"), url("../../img/TabletVector2.svg");
     background-position: top left, top right, center right;
-    background-size: auto, 25%, auto;
+    background-size: auto, 15%, auto;
   }
 
   #menu {
@@ -40,7 +40,6 @@
   .text {
     width: 525px;
     height: 78px;
-    margin-left: 7rem;
   }
 
   #label__info {
