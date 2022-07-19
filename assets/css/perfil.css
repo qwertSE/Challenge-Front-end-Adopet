@@ -5,6 +5,10 @@ body {
   min-height: 100vh;
 }
 
+.logo__topo{
+  display: none;
+}
+
 .bg-white {
   background-color: var(--white);
 }
