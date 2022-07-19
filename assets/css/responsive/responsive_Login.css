@@ -8,7 +8,7 @@
   }
 
   #menu {
-    padding: 4rem 0 0 3rem;
+    padding: 6rem 0 0 3rem;
   }
 
   .logo__topo {
@@ -30,6 +30,10 @@
     margin-top: 2rem;
     font-size: 1.1em;
   }
+  
+  .rodape{
+    margin-top: 440px;
+  }
 }
 @media screen and (min-width: 1401px) {
   body {
@@ -41,7 +45,7 @@
   }
 
   #menu {
-    padding: 4rem 0 0 3rem;
+    padding: 0 0 0 3rem;
   }
 
   .logo__topo {
@@ -67,5 +71,9 @@
   #email {
     width: 552px;
     height: 40px;
+  }
+
+  .rodape{
+    margin-top: 320px;
   }
 }

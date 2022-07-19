@@ -7,7 +7,7 @@ body {
       url("/assets/img/Patas.svg"), url("/assets/img/Vector2.svg");
     background-repeat: no-repeat;
     background-position: top left, top right, center right;
-    background-size: auto, 11rem, auto;
+    background-size: auto, 8rem, auto;
   min-height: 100vh;
 }
 
