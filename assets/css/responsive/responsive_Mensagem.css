@@ -1,0 +1,114 @@
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  body {
+    background-image: url("../../img/TabletVector.svg"),
+      url("../../img/TabletVector2.svg");
+    background-position: top left, top 120% right;
+  }
+
+  #menu {
+    padding: 4rem 0 0 4rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  #perfil {
+    position: relative;
+    left: 30%;
+  }
+
+  .text {
+    font-size: 1.2em;
+
+    width: 524px;
+    height: 52px;
+
+    margin-top: 8rem;
+  }
+
+  .form__info {
+    width: 524px;
+    height: 628px;
+  }
+
+  .form__input {
+    width: 492px;
+    height: 48px;
+  }
+
+  #msg-textArea {
+    width: 492px;
+    height: 172px;
+  }
+
+  .btn-submit {
+    position: relative;
+    left: 20%;
+  }
+
+  .rodape {
+    margin-top: 4rem;
+  }
+}
+@media screen and (min-width: 1401px) {
+  body {
+    background-image: url("../../img/VectorDesktop.svg"),
+      url("../../img/Vector2Desktop.svg");
+    background-position: top left, top 50% right;
+  }
+
+  #menu {
+    padding: 4rem 0 0 10rem;
+  }
+
+  .logo__topo {
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    padding-left: 1.5rem;
+  }
+
+  #perfil {
+    position: relative;
+    left: 30%;
+  }
+
+  .text {
+    font-size: 1.2em;
+
+    width: 524px;
+    height: 52px;
+
+    margin-top: 8rem;
+  }
+
+  .form__info {
+    width: 552px;
+    height: 623px;
+  }
+
+  .form__input {
+    width: 492px;
+    height: 48px;
+  }
+
+  #msg-textArea {
+    width: 492px;
+    height: 172px;
+  }
+
+  .btn-submit {
+    position: relative;
+    left: 20%;
+  }
+
+  .rodape {
+    margin-top: 4rem;
+  }
+}

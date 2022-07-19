@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/mensagem.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/responsive/responsive_Mensagem.css"
+    />
     <!-- CSS End -->
 
     <title>AdoPet</title>
@@ -26,6 +30,7 @@
     <div class="app">
       <header>
         <nav id="menu">
+          <img src="./assets/img/Logo.svg" alt="" class="logo__topo" />
           <a href="./index.html" id="home"
             ><img src="./assets/img/Casa.svg" alt="home"
           /></a>
@@ -43,7 +48,7 @@
           Envie uma mensagem para a pessoa ou instituição que está cuidado do
           animal:
         </p>
-        <form class="form__info" action="#">
+        <form class="form__info" action="home.html">
           <label for="nome" class="form__label">Nome</label>
           <input
             type="text"
@@ -67,7 +72,14 @@
             class="form__input"
           />
           <label for="mensagem" class="form__label">Mensagem</label>
-          <textarea name="mensagem" id="msg-textArea" cols="30" rows="10" placeholder="Escreva sua mensagem." class="form__input"></textarea>
+          <textarea
+            name="mensagem"
+            id="msg-textArea"
+            cols="30"
+            rows="10"
+            placeholder="Escreva sua mensagem."
+            class="form__input"
+          ></textarea>
 
           <button class="btn-submit">Enviar</button>
         </form>

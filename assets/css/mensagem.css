@@ -9,6 +9,10 @@ body {
   background-color: var(--white);
 }
 
+.logo__topo{
+  display: none;
+}
+
 .app {
   box-sizing: border-box;
   height: 100vh;
